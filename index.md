@@ -1,10 +1,8 @@
-## Welcome to GitHub Pages
+## 大规模行人检索竞赛（Large-Scale Pedestrian Retrieval Competition, LSPR Competition）
 
-You can use the [editor on GitHub](https://github.com/LSPRC/LSPRC.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### 竞赛目的与意义
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+    行人检索可以帮助用户依据查询条件（如属性值或图片）找到特定视频、图像中出现的感兴趣行人目标，是智能视觉监控系统的重要终端应用之一，在公共安全领域具有极强的实用价值。当前，行人检索相关研究，如行人再识别、行人属性识别等方向，发展迅速，国内外研究者众多，文章方法层出不穷。然而，大多数研究还主要集中在算法层面，试图解决行人属性识别或行人再识别模型中面临的诸多技术难点（如低分辨率、遮挡及姿态变化等），以提供算法的鲁棒性及识别精度。目前还缺乏对从原始视频到行人检索“端到端”应用系统的性能评价标准与测试方法。
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
