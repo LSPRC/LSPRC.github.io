@@ -26,7 +26,7 @@
 
 组织方收到邮件并与报名者确认后，报名成功。
 
-![报名信息表](https://github.com/LSPRC/LSPRC.github.io/blob/master/images/table-registration.jpg)
+![报名信息表](/images/table-registration.jpg)
 - 注：参赛内容包括——(1) PR-A; (2) PR-ID
 
 ### 5. 主要时间节点（北京时间）
