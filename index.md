@@ -1,35 +1,27 @@
 ## 大规模行人检索竞赛（Large-Scale Pedestrian Retrieval Competition, LSPR Competition）
 
-### 竞赛目的与意义
+### 1. 竞赛目的与意义
 
-    行人检索可以帮助用户依据查询条件（如属性值或图片）找到特定视频、图像中出现的感兴趣行人目标，是智能视觉监控系统的重要终端应用之一，在公共安全领域具有极强的实用价值。当前，行人检索相关研究，如行人再识别、行人属性识别等方向，发展迅速，国内外研究者众多，文章方法层出不穷。然而，大多数研究还主要集中在算法层面，试图解决行人属性识别或行人再识别模型中面临的诸多技术难点（如低分辨率、遮挡及姿态变化等），以提供算法的鲁棒性及识别精度。目前还缺乏对从原始视频到行人检索“端到端”应用系统的性能评价标准与测试方法。
+行人检索可以帮助用户依据查询条件（如属性值或图片）找到特定视频、图像中出现的感兴趣行人目标，是智能视觉监控系统的重要终端应用之一，在公共安全领域具有极强的实用价值。当前，行人检索相关研究，如行人再识别、行人属性识别等方向，发展迅速，国内外研究者众多，文章方法层出不穷。然而，大多数研究还主要集中在算法层面，试图解决行人属性识别或行人再识别模型中面临的诸多技术难点（如低分辨率、遮挡及姿态变化等），以提供算法的鲁棒性及识别精度。目前还缺乏对从原始视频到行人检索“端到端”应用系统的性能评价标准与测试方法。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+针对以上情况，本竞赛将提供一个面向真实监控的大规模行人检索性能评估基准。一方面，用于考察与行人检索相关的行人属性识别与行人再识别算法对不同目标尺度、姿态变化及遮挡条件下的识别性能；同时，还将提供一个大规模视频解析平台——ISEE系统，用于考察行人属性识别及行人再识别算法模型与行人检测算法模型集成后的系统性能，这将更直接地以“端到端”形式考察行人检索系统性能，有利于发现算法集成中影响系统整体性能的瓶颈问题，探索待查询集中大规模干扰样本对检索性能的影响，并形成行人检索系统的评测标准与测试方法。
 
-```markdown
-Syntax highlighted code block
+### 2. 组织方式
 
-# Header 1
-## Header 2
-### Header 3
+- **组织方**：中国科学院自动化研究所，山东科技大学
+- **联系方式**：张彰老师zzhang@nlpr.ia.ac.cn；单彩峰老师shancf@cas-air.cn
+- **赞助方**：根尖智能科技有限公司
 
-- Bulleted
-- List
+### 3. 竞赛参与者要求
 
-1. Numbered
-2. List
+国内外内各科研机构，包括各个高校、研究所、公司研究院均可参加。
 
-**Bold** and _Italic_ and `Code` text
+### 4. 报名方式
 
-[Link](url) and ![Image](src)
-```
+仅接受以团队形式通过邮件报名参赛，每个参赛队伍人员不超过5人，每名参赛选手只能参加1个参赛队。参赛团队签署竞赛协议书并经单位盖章，扫描版发邮件至竞赛联系人邮箱da.li@cripac.ia.ac.cn。
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- 邮件标题格式：“PRCV 2020大规模行人检索竞赛+参赛队名称”
+- 邮件内容包括：团队基本信息；负责人信息；参赛人数；联系方式（手机及邮箱）；参赛内容；单位盖章的竞赛协议书扫描版。
+- 报名截止日期：2020年7月1日。
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LSPRC/LSPRC.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+组织方收到邮件并与报名者确认后，报名成功。
