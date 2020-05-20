@@ -46,4 +46,8 @@
 
 竞赛中将提供大规模行人检索数据集（RAP-LSPRC），该数据集为RAP数据集的子集，包含超过68000张行人样本图片，每个样本都标注了72个细粒度属性，例如性别、发型、鞋子类型以及附属物类型等；同时数据集中共标注了2589个行人身份标签。下表中列出了数据集的一些基本信息：
 
+![标记数据基本信息]（）
+
 $$AP=\frac{\sum_{r=1}^{N}P(r)\times rel(r)}{K}$$
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=AP=\frac{\sum_{r=1}^{N}P(r)\times&space;rel(r)}{K}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?AP=\frac{\sum_{r=1}^{N}P(r)\times&space;rel(r)}{K}" title="AP=\frac{\sum_{r=1}^{N}P(r)\times rel(r)}{K}" /></a>
