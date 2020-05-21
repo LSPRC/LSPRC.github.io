@@ -1,5 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 ## 大规模行人检索竞赛（Large-Scale Pedestrian Retrieval Competition, LSPR Competition）
 
 ### 1. 竞赛目的与意义
@@ -112,6 +110,16 @@
 
 - PR-A-SYS：
 
-\\{n_c}\\
+<a href="https://www.codecogs.com/eqnedit.php?latex=prec_{i}=\frac{N_{tp}^{i}}{N_{tp}^{i}&plus;N_{fp}^{i}},recall_{i}=\frac{N_{tp}^{i}}{N_{p}^{i}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?prec_{i}=\frac{N_{tp}^{i}}{N_{tp}^{i}&plus;N_{fp}^{i}},recall_{i}=\frac{N_{tp}^{i}}{N_{p}^{i}}" title="prec_{i}=\frac{N_{tp}^{i}}{N_{tp}^{i}+N_{fp}^{i}},recall_{i}=\frac{N_{tp}^{i}}{N_{p}^{i}}" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=F_{1i}&space;=&space;\frac{2\ast&space;prec_{i}\ast&space;recall_{i}}{prec_{i}&plus;recall_{i}},F_{1}=\frac{1}{n_c}\sum_{i=1}^{n_c}F_{1i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F_{1i}&space;=&space;\frac{2\ast&space;prec_{i}\ast&space;recall_{i}}{prec_{i}&plus;recall_{i}},F_{1}=\frac{1}{n_c}\sum_{i=1}^{n_c}F_{1i}" title="F_{1i} = \frac{2\ast prec_{i}\ast recall_{i}}{prec_{i}+recall_{i}},F_{1}=\frac{1}{n_c}\sum_{i=1}^{n_c}F_{1i}" /></a>
+
+其中，i表示第i组查询条件；<a href="https://www.codecogs.com/eqnedit.php?latex=n_c" target="_blank"><img src="https://latex.codecogs.com/gif.latex?n_c" title="n_c" /></a>为查询条件的总数目；<a href="https://www.codecogs.com/eqnedit.php?latex=N_{tp}^{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N_{tp}^{i}" title="N_{tp}^{i}" /></a>表示由第i组查询条件生成的Positive Queries中被正确回答的数目，即True Positives的数量；<a href="https://www.codecogs.com/eqnedit.php?latex=N_{fp}^{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N_{fp}^{i}" title="N_{fp}^{i}" /></a>表示由第i组查询条件生成的Negative Queries中被错误回答的数目，即False Positives的数量；<a href="https://www.codecogs.com/eqnedit.php?latex=N_{p}^{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N_{p}^{i}" title="N_{p}^{i}" /></a>表示由第i组查询条件生成的Positive Queries的总数。
 
 - PR-ID-SYS：
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=prec=\frac{N_{tp}}{N_{tp}&plus;N_{fp}},racall=\frac{N_{tp}}{N_{p}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?prec=\frac{N_{tp}}{N_{tp}&plus;N_{fp}},racall=\frac{N_{tp}}{N_{p}}" title="prec=\frac{N_{tp}}{N_{tp}+N_{fp}},racall=\frac{N_{tp}}{N_{p}}" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=F_{1}=\frac{2\ast&space;prec\ast&space;recall}{prec&plus;recall}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F_{1}=\frac{2\ast&space;prec\ast&space;recall}{prec&plus;recall}" title="F_{1}=\frac{2\ast prec\ast recall}{prec+recall}" /></a>
+
+其中，<a href="https://www.codecogs.com/eqnedit.php?latex=N_{tp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N_{tp}" title="N_{tp}" /></a>表示全部Positive Queries中被正确回答的数目，即True Positives的数目；<a href="https://www.codecogs.com/eqnedit.php?latex=N_{fp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N_{fp}" title="N_{fp}" /></a>表示全部Negative Queries中被错误回答的数目，即False Positives的数目；而<a href="https://www.codecogs.com/eqnedit.php?latex=N_{p}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N_{p}" title="N_{p}" /></a>则表示全部Positive Queries的数目。
