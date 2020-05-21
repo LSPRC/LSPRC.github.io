@@ -123,3 +123,61 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=F_{1}=\frac{2\ast&space;prec\ast&space;recall}{prec&plus;recall}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F_{1}=\frac{2\ast&space;prec\ast&space;recall}{prec&plus;recall}" title="F_{1}=\frac{2\ast prec\ast recall}{prec+recall}" /></a>
 
 其中，<a href="https://www.codecogs.com/eqnedit.php?latex=N_{tp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N_{tp}" title="N_{tp}" /></a>表示全部Positive Queries中被正确回答的数目，即True Positives的数目；<a href="https://www.codecogs.com/eqnedit.php?latex=N_{fp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N_{fp}" title="N_{fp}" /></a>表示全部Negative Queries中被错误回答的数目，即False Positives的数目；而<a href="https://www.codecogs.com/eqnedit.php?latex=N_{p}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N_{p}" title="N_{p}" /></a>则表示全部Positive Queries的数目。
+
+### 9.结果提交方式
+
+无论参加哪项竞赛任务，参赛团队提交的结果都必须包含“识别结果”与“算法模型”两部分，同时在竞赛研讨会召开前，需要提交参赛相关技术说明文档。
+
+- **识别结果**：参赛团队在RAP-LSPRC测试集上的识别结果，以指定文件格式上传竞赛组织方。
+
+  + (1) PR-A-RAP
+  
+  识别结果格式：
+  
+  """
+  <query_index>,<image_index_1>,<confidence_1>,<image_index_2>,<confidence_2>, ..., <image_index_N>,<confidence_N>
+  """
+  
+  注：
+    * 1) 一条查询结果保存一行，各项之间以逗号隔开，并请以.csv后缀命名。
+    * 2) query_index为查询条件索引，请以与我们提供的查询条件顺序保持一致。
+    * 3) image_index_i为识别结果的图像索引，索引顺序请与测试集中图像顺序保持一致, N为测试样本数量。
+    * 4) confidence_i为置信度，与image_index_i一一对应，结果应根据置信度由高到低排列。
+    
+  + (2) PR-ID-RAP
+  
+  识别结果格式：同(1) PR-A-RAP
+  
+  注：此处query_index应与测试图像顺序保持一致
+  
+- 算法模型：参数团队还需提交符合指定接口格式的属性识别或行人再识别算法模型，供结果验证和进一步系统测试。
+
+- 其他注意事项：
+
+  + 针对每个评测任务，每只参赛团队最多提交2份识别结果和2种算法模型。
+  + 系统只支持C/C++，python代码，且运行环境仅为Linux (CentOS7)。
+  + 请提供可以正常运行的模型调用样例。
+  + [链接](https://github.com/LSPRC/PRCV2020-LSPRC)中提供了竞赛任务的C/C++及python接口。无论何种代码请都包含initialize, recognize/detect, release三个方法，并给出相应的说明文档和可以正常运行的样例代码。
+  + 支持pytorch、tensorflow、mxnet或caffe深度学习框架。
+  + 如果包含自定义Layer，请务必提供源代码或封装好的动态链接库，说明依赖库等信息。
+  + 提供的行人再识别代码中需返回最后的特征层，而非Rank结果。
+  + 不得使用所提供数据以外的行人属性或行人再识别相关数据集辅助模型训练。
+  
+### 10. 奖项设置或奖励方法
+
+在2个竞赛任务、2种评测方式共4个环节中，对性能指标排名前三名的参赛队伍，授予由竞赛组织方签发的冠、亚、季军获奖证书，并予以一定物质奖励（其中，每个环节第一名奖金1万元，第二名奖金5000元，第三名奖金2500元，共计奖金总额7万元）。
+
+### 11. 知识产权归属
+
+- 参赛团队提交算法及可执行模型的知识产权归参赛团队所有，竞赛视频、图像数据由中科院自动化所所有。
+- 各参赛队在赛前需签订数据使用协议，承诺本竞赛提供的数据集仅能用于本竞赛，不用于除本竞赛外的任何其他用途。
+- 各参赛队需要承诺本队提交的结果可重复，组织方承诺履行保密义务，并不用于除本比赛外的任何其他用途。
+- 参赛队伍应保证所提供的方案、算法属于自有知识产权。组织方对参赛队伍因使用本队提供/完成的算法和结果而产生的任何实际侵权或者被任何第三方指控侵权概不负责。一旦上述情况和事件发生参赛队伍必须承担一切相关法律责任和经济赔偿责任并保护组织方免于承担该等责任。
+
+### 12. 参赛团队注册方式
+
+本竞赛将邀请所有参赛团队参加PRCV期间举行的研讨会。参会的团队注册可与PRCV注册方式相同，标明参加竞赛研讨会，并支付注册费用。
+
+### 13. 竞赛协议下载链接
+
+- [竞赛协议]()
