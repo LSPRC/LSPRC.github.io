@@ -7,4 +7,4 @@ aux_links:
   "View on GitHub":
     - "//github.com/LSPRC/LSPRC.github.io"
     
-heading_anchors: false
+heading_anchors: true
