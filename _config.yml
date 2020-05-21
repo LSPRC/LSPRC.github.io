@@ -1,2 +1,10 @@
 #theme: jekyll-theme-slate
 remote_theme: pmarsceill/just-the-docs
+
+search_enabled: false
+
+aux_links:
+  "View on GitHub":
+    - "//github.com/LSPRC/LSPRC.github.io"
+    
+heading_anchors: false
