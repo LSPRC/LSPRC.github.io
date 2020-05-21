@@ -1,10 +1,2 @@
 #theme: jekyll-theme-slate
 remote_theme: pmarsceill/just-the-docs
-
-nav:
-    - name: "首页"
-    - link: "index"
-    - name: "上届赛事回顾"
-    - link: "review"
-    - name: "排名情况"
-    - link: "leaderboard"
