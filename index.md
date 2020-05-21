@@ -134,16 +134,17 @@
   
   识别结果格式：
   
-  """
+  ```
   <query_index>,<image_index_1>,<confidence_1>,<image_index_2>,<confidence_2>, ..., <image_index_N>,<confidence_N>
-  """
+  ```
   
   注：
-    * 1) 一条查询结果保存一行，各项之间以逗号隔开，并请以.csv后缀命名。
-    * 2) query_index为查询条件索引，请以与我们提供的查询条件顺序保持一致。
-    * 3) image_index_i为识别结果的图像索引，索引顺序请与测试集中图像顺序保持一致, N为测试样本数量。
-    * 4) confidence_i为置信度，与image_index_i一一对应，结果应根据置信度由高到低排列。
+    1) 一条查询结果保存一行，各项之间以逗号隔开，并请以.csv后缀命名。
+    2) query_index为查询条件索引，请以与我们提供的查询条件顺序保持一致。
+    3) image_index_i为识别结果的图像索引，索引顺序请与测试集中图像顺序保持一致, N为测试样本数量。
+    4) confidence_i为置信度，与image_index_i一一对应，结果应根据置信度由高到低排列。
     
+  
   + (2) PR-ID-RAP
   
   识别结果格式：同(1) PR-A-RAP
