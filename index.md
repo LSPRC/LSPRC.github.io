@@ -3,6 +3,7 @@ layout: default
 title: 首页
 nav_order: 1
 ---
+![LSPRC_LOGO](/images/PRCV2020-LSPRC.jpg)
 
 # 大规模行人检索竞赛 (Large-Scale Pedestrian Retrieval Competition, LSPRC)
 
