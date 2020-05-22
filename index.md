@@ -164,7 +164,7 @@ nav_order: 1
   + 针对每个评测任务，每只参赛团队最多提交2份识别结果和2种算法模型。
   + 系统只支持C/C++，python代码，且运行环境仅为Linux (CentOS7)。
   + 请提供可以正常运行的模型调用样例。
-  + [链接](https://github.com/LSPRC/PRCV2020-LSPRC)中提供了竞赛任务的C/C++及python接口。无论何种代码请都包含initialize, recognize/detect, release三个方法，并给出相应的说明文档和可以正常运行的样例代码。
+  + [链接](https://github.com/LSPRC/PRCV2020-LSPRC)中提供了竞赛任务的C/C++及python接口。无论何种代码请都包含init, process, getResults, release四个方法，并给出相应的说明文档和可以正常运行的样例代码。
   + 支持pytorch、tensorflow、mxnet或caffe深度学习框架。
   + 如果包含自定义Layer，请务必提供源代码或封装好的动态链接库，说明依赖库等信息。
   + 提供的行人再识别代码中需返回最后的特征层，而非Rank结果。
