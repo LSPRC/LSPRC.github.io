@@ -6,9 +6,9 @@ nav_order: 3
 
 ## 排名情况
 
-* 行人ID检索（PR-ID）
+* 行人ID检索（PR-A）
 
-|Team|mAP(PR-ID-RAP)|F1 score(PR-ID-SYS)|
+|Team|mAP(PR-A-RAP)|F1 score(PR-A-SYS)|
 |:----|:----|:----|
 |**GStar**|<u>0.6062</u>|<u>0.5584</u>|
 |**Win-CBSR-Attr**|<u>0.5859</u>|<u>0.5386</u>|
@@ -39,6 +39,3 @@ nav_order: 3
 |视觉与智能搬砖实验室|0.7338|0.4708|
 
 注：上表展示了本次竞赛性能排名前十的队伍，该排名是基于mAP值排列的；由于本次竞赛系统评测增大了gallery集中样本数量（243353 vs 83622），为了方便和上次竞赛结果进行对比，第三列括号中的结果是基于上一届gallery集产生的。
-
-Comming soon ...
-{: .label .label-yellow }
