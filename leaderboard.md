@@ -6,7 +6,7 @@ nav_order: 3
 
 ## 排名情况
 
-* 行人ID检索（PR-A）
+* 行人属性检索（PR-A）
 
 |Team|mAP(PR-A-RAP)|F1 score(PR-A-SYS)|
 |:----|:----|:----|
