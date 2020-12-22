@@ -42,4 +42,4 @@ nav_order: 3
 
 * 技术分享
 
-获奖单位技术分享ppt下载请点击![这里](/files/ppt.zip)。
+获奖单位技术分享ppt下载请点击[这里](/files/ppt.zip)。
